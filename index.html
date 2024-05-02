@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Locomotive scroll link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.6.0/dist/locomotive-scroll.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Parallax</title>
+</head>
+
+<body>
+    <!-- main container div for locomotive Js -->
+    <div class="container-main">
+
+        <header>
+            <div class="base-container">
+                <div class="header-nav">
+                    <h1>Parallax</h1>
+                    <div class="navbar">
+                        <button>
+                            <div class="hamburger">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="base-container">
+                <div class="section1">
+                    <div class="bg-img">
+                        <div data-scroll data-scroll-speed="-3">
+                            <h1>Section 1</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="base-container">
+                <div class="section2">
+                    <div class="bg-img">
+                        <div data-scroll data-scroll-speed="-4">
+                            <h1>Section 2</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- blank section for parallax footer -->
+            <div class="section3">
+            </div>
+        </main>
+    </div>
+    <div class="base-container">
+        <footer>
+            <h1>footer</h1>
+        </footer>
+    </div>
+
+
+
+    <!-- Locomotive JS -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.6.0/dist/locomotive-scroll.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
